@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.5.0" name="6f6e7e8d-d737-465f-abe5-b9da60b048ce">
+    <repository>mvn:io.fabric8/fabric8-karaf-features/3.0.11.fuse-730075-redhat-00001/xml/features</repository>
+    <repository>mvn:org.apache.karaf.features/framework/4.2.0.fuse-730036-redhat-00001/xml/features</repository>
+    <repository>mvn:org.jboss.fuse/fuse-karaf-framework/7.3.0.fuse-730079-redhat-00001/xml/features</repository>
+    <feature name="414dd9e4-69a4-4467-b282-69001c676f20" version="0.0.0">
+        <feature version="4.2.0.fuse-730036-redhat-00001" dependency="false">framework</feature>
+        <feature version="4.2.0.fuse-730036-redhat-00001" dependency="false">jaas</feature>
+        <feature version="4.2.0.fuse-730036-redhat-00001" dependency="false">log</feature>
+        <feature version="4.2.0.fuse-730036-redhat-00001" dependency="false">shell</feature>
+        <feature version="4.2.0.fuse-730036-redhat-00001" dependency="false">management</feature>
+        <feature version="4.2.0.fuse-730036-redhat-00001" dependency="false">aries-blueprint</feature>
+        <feature version="2.21.0.fuse-730078-redhat-00001" dependency="false">camel-blueprint</feature>
+        <feature version="3.0.11.fuse-730075-redhat-00001" dependency="false">fabric8-karaf-blueprint</feature>
+        <feature version="3.0.11.fuse-730075-redhat-00001" dependency="false">fabric8-karaf-checks</feature>
+        <feature version="7.3.0.fuse-730079-redhat-00001" dependency="false">fuse-credential-store-core</feature>
+        <feature version="7.3.0.fuse-730079-redhat-00001" dependency="false">fuse-credential-store</feature>
+        <feature version="7.3.0.fuse-730079-redhat-00001" dependency="false">fuse-javaee-apis</feature>
+        <bundle start-level="80">mvn:org.example.fis/karaf-fuse-73/1.0-SNAPSHOT</bundle>
+    </feature>
+</features>

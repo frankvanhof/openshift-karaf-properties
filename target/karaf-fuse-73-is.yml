@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: List
+items:
+- apiVersion: image.openshift.io/v1
+  kind: ImageStream
+  metadata:
+    name: karaf-fuse-73
+  spec:
+    tags:
+    - from:
+        kind: ImageStreamImage
+        name: karaf-fuse-73@sha256:d720329b661960b93cab76f8c3f237dd9f4a503ef429401451beff86b5235384
+        namespace: myproject
+      name: latest
