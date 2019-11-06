@@ -2,6 +2,8 @@
 
 This quickstart shows a simple Apache Camel application that logs a message to the server log every 5th second.
 
+Also, there is a mix of ext propertyplaceholder for resolving environment properties and configadmin for referencing those variables in a declarative manner.
+
 This example is implemented using solely the XML DSL (there is no Java code). The source code is provided in the following XML file `src/main/resources/OSGI-INF/blueprint/camel-log.xml`.
 It also shows how Karaf assembly files can be overridden using resources from `src/main/resources/assembly/`. The included sample log file `etc/org.ops4j.pax.logging.cfg` sets the log level to DEBUG.
 
